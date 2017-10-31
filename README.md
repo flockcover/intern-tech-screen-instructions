@@ -6,7 +6,7 @@ For example:
 ```
 yourFunction(
 ["I", ["love"], [[["awesome", "shiny"]]], "drones"],
-["I", ["hate"], [[["magenta", "dirty"]]], "drains"
+["I", ["hate"], [[["magenta", "dirty"]]], "drains"]
 )
 ``` 
 should return `2(3) + 8(7 + 4) + 3 = 97`

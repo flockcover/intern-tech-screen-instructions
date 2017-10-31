@@ -4,7 +4,7 @@ In a language of your choice, please write a program which accepts as input two 
 For example:
 
 `yourFunction(`
-`["I", ["love"], [[["awesome", "shiny"]]], "drones],`
+`["I", ["love"], [[["awesome", "shiny"]]], "drones"],`
 `["I, ["hate"], [[["magenta", "dirty"]]], "drains"`
 `)` should return `3*2 + 7*8 + 3 = 65`
 

@@ -5,7 +5,7 @@ For example:
 
     yourFunction(
       ["I", ["love"], [[["awesome", "shiny"]]], "drones"],
-      ["I, ["hate"], [[["magenta", "dirty"]]], "drains"]
+      ["I", ["hate"], [[["magenta", "dirty"]]], "drains"]
     ) 
 
 should return `3*2 + 7*8 + 3 = 65`

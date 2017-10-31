@@ -27,4 +27,4 @@ or as a link to a Version Control System of your choice. Bonus points for the la
   3) What is the Big O of your solution? Please justify your answer.
   3) In what ways do you feel your code could be improved?
   4) What tests (if any) have you written? What tests do you feel you could still write?
-  5) How do we run your code
+  5) How do we run your code. Please be aware that we may not have your programming environment installed. Unless you are submitting a compiled binary with your code, please provide instructions on what to install and how.

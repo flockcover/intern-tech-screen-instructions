@@ -1,11 +1,16 @@
 # Flock Tech Screen
-In a language of your choice, please write a program which accepts as input a sorted array of numbers, with duplicates, and a number, and returns the tightest possible range within that array which bounds the number.
+In a language of your choice, please write a program which accepts as input two arbitrarily nested arrays of strings, and returns the sum of the number of necessary one character substitutions multiplied by 2 to the power of the depth of nesting at which substitution must occur
 
 For example:
 
-`yourFunction([1,1,2,2,2,3,7,8,8,12], 6)` should return `[3,7]`
+`yourFunction(["I", ["love"], [[["awesome"]]], "drones], ["I, ["hate"], [[["magenta"]]], "drains")` should return `3*2 + 7*8 + 3 = 65`
 
-`yourFunction([1,2,3], 2)` should return `[2,2]`
+If the levels of nesting or the lengths of the strings do not much, return `-1` so:
+`yourFunction(["I", ["love"], [["awesome"]], "drones], ["I, ["hate"], [[["magenta"]]], "drains")` should return `-1`
+
+If the lengths of any fragment differ, return `-1` so:
+`yourFunction(["I", ["adore"], [[["red"]]], "drones], ["I, ["hate"], [[["magenta"]]], "drains")` should return `-1`
+
 
 ## Submission guidelines
 - Please ensure that your submission is runnable. Bonus points if your code is tested.

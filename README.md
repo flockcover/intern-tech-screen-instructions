@@ -3,10 +3,12 @@ In a language of your choice, please write a program which accepts as input two 
 
 For example:
 
-`yourFunction(`
-`["I", ["love"], [[["awesome", "shiny"]]], "drones"],`
-`["I, ["hate"], [[["magenta", "dirty"]]], "drains"`
-`)` should return `3*2 + 7*8 + 3 = 65`
+    yourFunction(
+    ["I", ["love"], [[["awesome", "shiny"]]], "drones"],
+    ["I, ["hate"], [[["magenta", "dirty"]]], "drains"
+    ) 
+
+should return `3*2 + 7*8 + 3 = 65`
 
 If the levels of nesting or the lengths of the strings do not much, return `-1` so:
 `yourFunction(["I", ["love"], [["awesome"]], "drones], ["I, ["hate"], [[["magenta"]]], "drains")` should return `-1`

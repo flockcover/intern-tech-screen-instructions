@@ -12,10 +12,10 @@ yourFunction(
 should return `2(3) + 8(7 + 4) + 3 = 97`
 
 If the levels of nesting or the lengths of the strings do not match, return `-1` so:
-`yourFunction(["I", ["love"], [["awesome"]], "drones], ["I, ["hate"], [[["magenta"]]], "drains")` should return `-1`
+`yourFunction(["I", ["love"], [["awesome"]], "drones"], ["I, ["hate"], [[["magenta"]]], "drains")` should return `-1`
 
 If the lengths of any fragment differ, return `-1` so:
-`yourFunction(["I", ["adore"], [[["red"]]], "drones], ["I, ["hate"], [[["magenta"]]], "drains")` should return `-1`
+`yourFunction(["I", ["adore"], [[["red"]]], "drones"], ["I, ["hate"], [[["magenta"]]], "drains")` should return `-1`
 
 
 ## Submission guidelines
